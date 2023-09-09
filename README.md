@@ -1,1 +1,2 @@
-#Terraform Project for RDS-DMS-Redshift Migration Tasks
+# terraform-project-memo
+Terraform Project for DMS migration from RDS to Redshift
