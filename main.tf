@@ -217,30 +217,6 @@ resource "aws_dms_replication_instance" "mobile-to-analytical" {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # redshift function start
 resource "aws_redshift_subnet_group" "redshift_subnet_group" {
   name       = "redshift-subnet-group"
@@ -366,8 +342,6 @@ resource "aws_dms_endpoint" "thx-analytical-redshift" {
   ]
 
 }
-
-
 
 resource "aws_dms_endpoint" "memo2-analytics-prod" {
   endpoint_id         = "memo2-analytics-prod"
